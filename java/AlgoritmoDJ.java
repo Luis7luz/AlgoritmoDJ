@@ -3,9 +3,11 @@
  * @email: noe-vg@outlook.com
  * @about: Clase para implementar Dijkstra's algorithm
  */
+
+
 class AlgoritmoDJ{
     /**
-     * @about:
+     * @about: Luis Gonzalez
      * En este metodo se iniciara sel setup del algoritmo
      */
     public void init(){
@@ -17,7 +19,9 @@ class AlgoritmoDJ{
     private void start(){
         // . . .
         // . . .
-        // . . .
+        System.out.println("[OK] Starting . . . ");
+        Gui guiInterface = new Gui();
+        guiInterface.setVisible(true);
     } 
     public static void main(String[] args) {
         AlgoritmoDJ algoritmoDJ = new AlgoritmoDJ();
