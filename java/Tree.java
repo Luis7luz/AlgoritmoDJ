@@ -1,3 +1,9 @@
+/**
+ * @author: Luis Gonzalez
+ * @email: luisgnzhdz@gmail.com
+ * @about: Class tree to insert data 
+ */
+
 public class Tree{
     private boolean exist(Node num, int search) {
         if (num == null) {
