@@ -1,4 +1,9 @@
-class Node {
+/**
+ * @author: Luis Gonzalez
+ * @email: luisgnzhdz@gmail.com
+ * @about: Class node to return data 
+ */
+ class Node {
     private int data;
     private Node left, rigth;
 
