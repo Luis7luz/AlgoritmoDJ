@@ -76,7 +76,7 @@ class AlgoritmoDJ{
         //Crate a object 
         AlgoritmoDJ object = new AlgoritmoDJ();
 
-        System.out.println("Insert the distance ");
+        System.out.println("Insert the distance (The distance is value of nodes * nodes)");
 
         for(i = 1; i <= nodes; i++){
             for(j = 1; j <= nodes; j++){
